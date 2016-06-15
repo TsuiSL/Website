@@ -1,0 +1,747 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Visionaries 777's Website</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/scrolling-nav.css"> 
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/animate.css"> 
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <script src="./script/jquery-1.12.2.min.js"></script>    
+    <script src="./script/jquery.easing.min.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+    <script src="./script/bootstrap.js"></script>
+    <script src="./script/viewportchecker.js"></script>   
+    <script src="./script/page2.js"></script>
+    <script src="./script/preload.js"></script>
+    <script src="./script/footer.js"></script>
+    <script src="script/jquery.fullPage.js"></script>
+    <script src="script/jquery.preload.min.js"></script>
+</head>
+<body>
+<!-- Preloader with Bootstrap Progress Bar -->
+<div class='loader'>	
+    <div class='loader-container'>    
+    	<img src="svg/vz777_spaceship.svg" id="spaceship">
+    	<img src="svg/vz777_hole.svg" id="hole">	
+        <!--div class='progress progress-striped active'>
+        	<div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
+         </div!-->
+     </div>
+</div>
+<!-- Landing Page -->
+<nav class="navbar navbar-default navbar-static-top navtopbar">
+    <div class="container fullWidth">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>			
+            </button>
+            <img src="svg/vz777_logo.svg" id="icon">
+            <a class="navbar-brand" href="./index.html">VISIONARIES 777</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">          
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./page1.html"><h5>CONFIGURATORS VISUALIZATIONS</h5></a></li>
+            <li><a href="http://www.vz777.com/" target="_blank"><h5>INTERACTIVE EXPERIENCES</h5></a></li>
+            <li><a href="./page3.html"><h5>INTERACTIVE PRODUCTS</h5></a></li>
+            <li><a href="http://www.vz777.com/contact-2/" target="_blank"><h5>CONTACT</h5></a></li>
+          </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="homeBtn">
+	<img src="svg/arrow_icon.svg" class="img-responsive">
+</div>
+
+<div id="fullpage">	
+    <div class="section">
+        <section id="home">        	
+            <div class="container noMargin noPadding fullHeight fullWidth">    	
+                <div class="row noMargin fullHeight">                	
+                    <div id="myCarousel" class="carousel slide fullHeight" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active down"></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class="up"></li>
+                            <li data-target="#myCarousel" data-slide-to="2" class="down"></li>
+                            <li data-target="#myCarousel" data-slide-to="3" class="up"></li>
+                            <li data-target="#myCarousel" data-slide-to="4" class="down"></li>
+                        </ol>            
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner fullHeight" role="listbox">
+                            <div class="item active fullHeight">
+                                <div class="bg1"></div>
+                                <div class="carouselTopic">
+                                  <img src="svg/automotive_icon.svg" id="icon1">
+                                  <h3>REAL TIME 3D CONFIGURATOR FOR AUTOMOTIVE INDUSTRY</h3>
+                                </div>
+                            </div>                    
+                            <div class="item fullHeight">
+                              <div class="bg2"></div>
+                              <div class="carouselTopic">
+                                  <img src="svg/jewellery_icon.svg" id="icon2">
+                                  <h3>REAL TIME 3D CONFIGURATOR FOR AUTOMOTIVE INDUSTRY</h3>
+                              </div>
+                            </div>                    
+                            <div class="item fullHeight">
+                              <div class="bg3"></div>
+                              <div class="carouselTopic">
+                                  <img src="svg/architecture_icon.svg" id="icon3">
+                                  <h3>REAL TIME 3D CONFIGURATOR FOR AUTOMOTIVE INDUSTRY</h3>
+                              </div>
+                            </div>                    
+                            <div class="item fullHeight">
+                              <div class="bg4"></div>
+                              <div class="carouselTopic">
+                                  <img src="svg/interiordesign_icon.svg" id="icon4">
+                                  <h3>REAL TIME 3D CONFIGURATOR FOR AUTOMOTIVE INDUSTRY</h3>
+                              </div>
+                            </div>
+                            <div class="item fullHeight">
+                              <div class="bg5"></div>
+                              <div class="carouselTopic">
+                                  <img src="svg/jewellery_icon.svg" id="icon5">
+                                  <h3>REAL TIME 3D CONFIGURATOR FOR AUTOMOTIVE INDUSTRY</h3>
+                              </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>     
+    <div class="section">   
+        <section id="benfits">
+            <div class="container-fluid noMargin fullWidth fullHeight noPadding">
+            	<div class="col-sm-12 noPadding fullHeight">  
+                	<div class="benfitsLayer">  
+                    	<div class="caption"></div>                        	
+                        <div class="row noMargin" id="text">       
+                            <div class="row noMargin benfitTopic">
+                                <h3>　BENEFITS　</h3>
+                                <h5>Learn how our configurator can benefit your dealerships and sales.</h5>
+                            </div>  
+                            <div class="hideMargin"></div>
+                            <div class="row noMargin benfitSubTitle">
+                            	<div class="bSubText" onClick="benfitsOnclick(0)">
+                            		<h3 id="bsTextMaxWidth">MANUFACTURER & DEALERS</h3>
+                                    <p><h5>Engage customers to promote better conversion and higher specification sales</h5></p>
+                                </div>
+                                <div class="bSubText" onClick="benfitsOnclick(1)">
+                                    <h3>CUSTOMER</h3>
+                                    <p><h5>Digital exploration and configuration for smarter shopping and informed choices</h5></p>
+                                </div>
+                            </div>
+                            <div class="benfitsSlider row noMargin">
+                                <div class="col-sm-12 benfitsPoint1">                                    
+                                    <div id="point">
+                                        <div class="col-sm-12 noPadding">                                           	
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>ACCESS</b> anywhere, anytime, cross platforms.</h5></p>
+                                        </div>
+                                        <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>SHOWCASE</b> entire product ranges, despite limited floor space.</h5></p>
+                                        </div>
+                                        <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>FLEXIBLE</b> framework to add new components.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>DRIVE</b> in-store sales with High-impact experience.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>REACH</b> potential customers Online.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>ASSIST</b> sales staff to engage potential customers.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>ELIMINATES</b> need for expensive physical product on location.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>FACILITATE</b> early product launches. Before products are built.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>Provides</b> customer analytics.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>SEAMLESS</b> integration with back-end system (e.g. Stocks)</h5></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 benfitsPoint2">                                    
+                                    <div id="point">
+                                        <div class="col-sm-12 noPadding">                                        
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>PERSONALIZED</b> customer buying experience.</h5></p>
+                                        </div>
+                                        <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>FACILITATE</b> purchase decisions.</h5></p>
+                                        </div>
+                                        <div class="col-sm-12 noPadding">
+                                            <span class="tickIcon"></span>	
+                                            <p><h5><b>ENHANCE</b> the buyers’ journey.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">                                        
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>TRY ON</b> the product digitally.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">                                        
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>IMMERSE</b> the customer in the product context.</h5></p>
+                                        </div>
+                       <div class="col-sm-12 noPadding">                                        
+                                            <span class="tickIcon"></span>
+                                            <p><h5><b>SHARE</b> with friends, family, or through social media channels.</h5></p>
+                                        </div>
+                                    </div>
+                                </div>          	
+                        	</div>
+                    	</div>
+                	</div>                  
+                </div>   
+            </div>
+        </section>
+    </div>
+    
+    <div class="section">
+        <section id="features">
+            <div class="container-fluid noPadding">
+                <div class="row noMargin featuresParent">
+                    <div class="col-sm-6 noPadding featuresChild">
+                        <div class="row noMargin featuresBoard1">
+                        </div>
+                        <div class="row noMargin featuresBoard2">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 floatRight featuresPoint">
+                        <h3>FEATURES</h3>
+                        <div class="col-sm-12 noPadding selected" onclick="featurePoint(1)">
+                            <img src="svg/color_icon.svg">
+                            <p><h5>CONFIGURE EVERY MODEL, PAINTS, OPTIONS, ACCESSORIES ETC.</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(2)">
+                            <img src="svg/specs_icon.svg">
+                            <p><h5>VISUALIZE TECHNICAL SPECIFICATIONS</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(3)">
+                            <img src="svg/viewangle_icon.svg">
+                            <p><h5>VIEW THE MODEL FROM ANY ANGLE INSIDE OR OUTSIDE</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(4)">
+                            <img src="svg/analytics_icon.svg">
+                            <p><h5>COLLECT DATA AND ANALYTICS FROM CUSTOMER BEHAVIOR</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(5)">
+                            <img src="svg/share_icon.svg">
+                            <p><h5>SHARE CONFIGURATIONS THROUCH SOCIAL NETWORKS</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(6)">
+                            <img src="svg/explore_icon.svg">
+                            <p><h5>EXPLORE DESIGN, SAFETY, INFOTAINMENT FEATURES WITH ANIMATIONS AND DEMONSTRATIONS</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(7)">
+                            <img src="svg/global_icon.svg">
+                            <p><h5>DEPLOY GLOBALLY EASILY</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(8)">
+                            <img src="svg/Engage_icon.svg">
+                            <p><h5>ENGAGE CUSTOMER WITH INTERACTIVE EXPERIENCE</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(9)">
+                            <img src="svg/augmentedreality_icon.svg">
+                            <p><h5>ENHANCE BROCHURES WITH AUGMENTED REALITY</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(10)">
+                            <img src="svg/virtualreality_icon.svg">
+                            <p><h5>IMMERSE THE USER WITH VIRTUAL REALITY</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(11)">
+                            <img src="svg/crossplatform_icon.svg">
+                            <p><h5>CROSS PLATFORMS</h5></p>
+                        </div>
+                        <div class="col-sm-12 noPadding" onclick="featurePoint(12)">
+                            <img src="svg/environment_icon.svg">
+                            <p><h5>VIZUALIZE IN DIFFERENT ENVIRONMENTS, CONTEXTES</h5></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        
+    <div class="section">
+        <section id="installation">
+            <div class="container-fluid noPadding">
+                <div class="col-md-12">
+                    <div class="col-sm-12 Topic">
+                        <h3 id="border">INSTALLATION</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row noMargin Topic" id="topic">
+                            <p><h5>Cross platform solution that supports a wide range of display devices, making it suitable for any floor space, budget or usage requirement.</h5></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 noPadding">   
+                    <div class="insText insStand" onClick="insOnclick(0)">
+                        <h3>STANDALONE</h3>
+                    </div>   
+                     <div class="insText insMobile" onClick="insOnclick(1)">
+                        <h3>MOBILE</h3>
+                    </div>       
+                    <div class="slidesLayer">
+                        <div class="slidesContainer">          
+                            <div class="slideContent">                        	
+                                <div class="dashedLine"></div>
+                                <div class="col-sm-12 noPadding insImg1">
+                                    <img src="images/Installation/Installation_4ktouch.jpg" class="img-responsive" id="installationImg1">
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="row insPoint1" id="point">
+                                        <div class="row noMargin selected" onClick="InstallationBg(1,1)">
+                                            <img src="svg/tvscreen_icon.svg">
+                                            <h5>4K SCREENS</h5>
+                                        </div>
+                                        <div class="row noMargin" onClick="InstallationBg(1,2)">
+                                            <img src="svg/projector_icon.svg">
+                                            <h5>PROJECTORS</h5>
+                                        </div>
+                                        <div class="row noMargin" onClick="InstallationBg(1,3)">
+                                            <img src="svg/tvwall_icon.svg">
+                                            <h5>VIDEO WALLS</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                       
+                            <div class="slideContent">                        	    
+                                <div class="col-sm-12 noPadding insImg1">
+                                    <img src="images/Installation/Installation_tablet.jpg" class="img-responsive" id="installationImg2">
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="row insPoint2" id="point">
+                                        <div class="row noMargin selected" onClick="InstallationBg(2,1)">
+                                            <img src="svg/tablet_icon.svg">
+                                            <h5>TABLETS</h5>
+                                        </div>
+                                        <div class="row noMargin" onClick="InstallationBg(2,2)">
+                                            <img src="svg/iphone_icon.svg">
+                                            <h5>SMARTPHONES</h5>
+                                        </div>  
+                                    </div>   
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+            	</div>
+        	</div>
+    	</section>
+    </div>
+        
+        
+    <div class="section">
+        <section id="additional">
+            <div class="container-fluid noPadding">
+                <div class="col-md-12">
+                    <div class="col-sm-12 Topic">
+                        <h3 id="border">ADDITIONAL OPTIONS</h3>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 Topic">
+                        <p><h5>A range of various add ons to customize the experience for specific needs.</h5></p>
+                    </div>
+                </div>
+                <div class="col-sm-12 noPadding">
+                	<div class="addText" onClick="addOnclick(0)">
+                        <h3>STANDALONE</h3>
+                    </div>
+                    <div class="addText" onClick="addOnclick(1)">
+                        <h3>MOBILE</h3>
+                    </div>
+                    <div class="slidesLayer">
+                        <div class="slidesContainer">          
+                            <div class="slideContent">                      	
+                                <div class="dashedLine"></div>
+                                <div class="col-sm-12 noPadding">                           	                         
+                                    <div class="col-sm-12 noPadding insImg2">
+                                        <img src="images/Additional/Additional_touch.jpg" class="img-responsive" id="installationImg3">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row insPoint3" id="point">
+                                            <div class="row noMargin selected" onClick="InstallationBg(3,1)">
+                                                <img src="svg/touchscreen_icon.svg">
+                                                <h5>TOUCH SCREEN</h5>
+                                            </div>
+                                            <div class="row noMargin" onClick="InstallationBg(3,2)">
+                                                <img src="svg/gesturecontrol_icon.svg">
+                                                <h5>GESTURE CONTROLLED</h5>
+                                            </div>
+                                            <div class="row noMargin" onClick="InstallationBg(3,3)">
+                                                <img src="svg/remotedashboard_icon.svg">
+                                                <h5>REMOTE DASHBOARD</h5>
+                                            </div>
+                                            <div class="row noMargin" onClick="InstallationBg(3,4)">
+                                                <img src="svg/virtualreality2_icon.svg">
+                                                <h5>VIRUAL REALITY (OCULUS, HTC VIVE)</h5>
+                                            </div>
+                                            <div class="row noMargin" onClick="InstallationBg(3,5)">
+                                                <img src="svg/analytics_icon.svg">
+                                                <h5>COLLECT DATA / GENERATE ANALYTICS</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slideContent">                    	
+                                <div class="col-sm-12 noPadding">
+                                    <div class="col-sm-12 noPadding insImg2">
+                                        <img src="images/Additional/Additional_ar.jpg" class="img-responsive" id="installationImg4">
+                                    </div>
+                                     <div class="col-md-12">
+                                        <div class="row insPoint4" id="point">
+                                            <div class="row noMargin selected" onClick="InstallationBg(4,1)">
+                                                <img src="svg/augmentedreality_icon.svg">
+                                                <h5>AUGMENTED REALITY</h5>
+                                            </div>
+                                            <div class="row noMargin" onClick="InstallationBg(4,2)">
+                                                <img src="svg/virtualreality2_icon.svg">
+                                                <h5>VIRTUAL REALITY (GEAR VR, GOOGLE CARDBOARD, ETC.)</h5>
+                                            </div>     
+                                            <div class="row noMargin" onClick="InstallationBg(4,3)">
+                                                <img src="svg/analytics_icon.svg">
+                                                <h5>COLLECT DATA / GENERATE ANALYTICS</h5>
+                                            </div>     
+                                        </div>
+                                    </div>            
+                                </div>
+                            </div>
+                		</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="section">
+    	<section id="caseStudy">
+            <div class="caption"></div>
+            <div class="container-fluid noPadding">
+                <div class="row" id="topic">
+                        <div id="topicLeft">
+                            <h3>CASE STUDY</h3>
+                        </div>
+                        <div id="topicRight">
+                            <img src="images/wmotors_client.png" class="shadowfilter">
+                        </div>
+                </div>
+                <div class="row" id="text1">
+                    <div class="col-sm-12 noPadding">
+                        <h5>W MOTORS commissioned Visionaries 777 with envisioning the future of digital off-line marketing and sales tools for global use. Creating the first automotive of high performance luxury sports cars based in the middle east was no easy task. The result was a total success, the high demand for the brand in multiple countries and W MOTORS fans worldwide, has organically pushed for digitals tools to become more accessible in the use of visualizing the the Lykan and Fenyr.</h5>
+                    </div>
+                    <div class="col-sm-12 noPadding">
+                        <h5>Multiple locations, endless combinations of colours and textures, markerless augmented reality, hyper real digital models and high definition virtual reality access have been catered for. This will help future owners visualize their jewel before its delivered, and give unique access to fans in any country to one of the most luxury cars ever made.</h5>
+                    </div>
+                </div>	
+                <div class="row" id="text2">	
+                    <div class="caseStudyBoard">
+                        <h3 id="blue">5000+</h3>
+                        <p><h3>Configurations</h3></p>
+                    </div>
+                    <div class="caseStudyBoard">
+                        <h3 id="blue">5000+</h3>
+                        <p><h3>Users</h3></p>
+                    </div>
+                    <div class="caseStudyBoard">
+                        <h3 id="blue">3</h3>
+                        <p><h3>Locations</h3></p>
+                    </div>
+                </div>
+                <div class="row triangleLayer">
+                    <div class="down fill csArrow" onclick="caseStudyBg(1)"></div>
+                    <div class="up csArrow" onclick="caseStudyBg(2)"></div>
+                    <div class="down csArrow" onclick="caseStudyBg(3)"></div>
+                    <div class="up csArrow" onclick="caseStudyBg(4)"></div>
+                    <div class="down csArrow" onclick="caseStudyBg(5)"></div>				
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="section">
+        <section id="clients">
+            <div class="blurBg"><div class="caption"></div></div>	
+            <div class="container-fluid noPadding" id="clientLayer">
+                <div class="col-sm-12 noPadding Topic">
+                        <h3>CLIENTS AND PARTNERS</h3>
+                    </div>
+                <div class="col-sm-12 noPadding" id="logoLayer">  
+                    <div class="row noMargin clientBoardLayer" id="setWidth">
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>	
+                        <div class="clientBoard">
+                            <div class="row noMargin clientBoardBg"></div>
+                            <img src="svg/wmotors_client.svg" class="shadowfilter">
+                        </div>					
+                    </div>
+                </div>   
+            </div>
+        </section>
+    </div>
+    <div class="section">
+        <section id="FAQ">
+            <div class="blurBg"><!--div class="caption"></div!--></div>		
+            <div class="container-fluid noPadding" id="faqLayer">
+            <div class="row noMargin Topic">
+                <h3>FAQ</h3>
+                <div class="blueborder"></div>
+            </div>
+            <div class="row Topic" id="textLayer">
+                <div class="col-sm-12 noPadding">
+                    <div class="col-sm-6 noPadding">
+                        <div class="row noMargin">					
+                            <div class="col-sm-12 noPadding textRow" onclick="infoText('faq1')">
+                            	<div class="row noMargin textTopic">
+                            		<span class="infoIcon"></span>
+                                	<h5>CAN CONFIGURATORS HELP IN THE SALES PROCESS?</h5>    
+                                </div>                           
+                                <div class="textBlueBorder"></div>
+                                <div class="row noMargin faqTextInfo" id="faq1">
+                                    <h5>Yes, digital interactive experiences are becoming the number one sales tool to approach first time customers and to maintain existing ones. Visionaries specializes in cutting edge interactive tools and visualization technologies that empower sales people and engage target audiences by using existing devices such as tablets, smart phones and interactive screens.</h5>
+                                </div>
+                            </div>					
+                        </div>	
+                        <div class="row noMargin">					
+                            <div class="col-sm-12 noPadding textRow" onclick="infoText('faq2')">
+                            	<div class="row noMargin textTopic">
+                            		<span class="infoIcon"></span>
+                                	<h5>WHY WORK WITH VISIONARIES 777?</h5>  
+                                </div>                              
+                                <div class="textBlueBorder"></div>
+                                <div class="row noMargin faqTextInfo" id="faq2">
+                                    <h5>Visionaries is one of the pioneers in the use of Augmented and Virtual reality tools for commercial purposes. Our biggest customer in LEGO, the largest toy company in the world, and brands like Coca-Cola, HSBC, WMOTORS to name a few have entrusted us to reach thousands of customers in multiple countries by creating powerful interactive solutions that generate social media traffic and analytics to better understand customer needs.</h5>
+                                </div>
+                            </div>
+                        </div>
+					<div class="row noMargin">	
+			   			<div class="col-sm-12 noPadding textRow" onclick="infoText('faq3')">
+               					<div class="row noMargin textTopic">
+               						<span class="infoIcon"></span>
+                                	<h5>IS IT AFFORDABLE?</h5>    
+                                </div>                           
+                                <div class="textBlueBorder"></div>
+                                <div class="row noMargin faqTextInfo" id="faq3">
+                                    <h5>Yes it is, Visionaries 777 strides itself of providing competitive prices adjusting to marketing budgets and company’s requirements. Based out of Hong Kong, the vibrating capital of Asia, Visionaries 777 has multicultural and multi disciplined staff from Europe, America and Asia at its headquarters. This mixture of backgrounds maximizes our potential to deliver the best possible solutions at scalable budgets that can start with prototypes for companies to better understand our capabilities.</h5>
+                                </div>
+                            </div>						
+                        </div>			
+                    </div>
+                    <div class="col-sm-6 noPadding">
+                        <div class="row noMargin">
+                            <div class="col-sm-12 noPadding textRow" onclick="infoText('faq4')">
+                            	<div class="row noMargin textTopic">
+                            		<span class="infoIcon"></span>
+                                	<h5>IF THE 3D DOES NOT EXIST, ITS CONFIDENTIAL OR ITS POOR QUALITY, WHAT THEN?</h5>
+                                </div>
+                                <div class="textBlueBorder"></div>
+                                <div class="row noMargin faqTextInfo" id="faq4">
+                                    <h5>Visionaries can generate premium quality 3D just from drawings or pictures. Even sketches and other product references would be enough to create all the necessary content to be included in the end product. Our specialists in Jewelry, architecture and mobility such as cars, planes helicopters etc. will deliver the best possible quality by sending back and forth screen shot pictures of the progress to the customer.</h5>
+                                </div>
+                            </div>					
+                        </div>
+                        <div class="row noMargin">
+                            <div class="col-sm-12 noPadding textRow" onclick="infoText('faq5')">
+                            	<div class="row noMargin textTopic">
+                            		<span class="infoIcon"></span>
+                                	<h5>CAN THE APP BE UPDATED ONCE ITS DELIVERED?</h5>       
+                               	</div>                         
+                                <div class="textBlueBorder"></div>
+                                <div class="row noMargin faqTextInfo" id="faq5">
+                                    <h5>Correct, Visionaries 777 can help maintain, update and monitor the use of the app for companies to have peace of mind that their usage targets are met. Once the app is delivered, we will give the customer fixed prices on what changes could be made in the future. This can then be included in future marketing or development budgets of the company for a long term partnership.</h5>
+                                </div>
+                            </div>					
+                        </div>
+
+			<div class="row noMargin">
+                            <div class="col-sm-12 noPadding textRow" onclick="infoText('faq6')">
+                            	<div class="row noMargin textTopic">
+                                	<span class="infoIcon"></span>
+                                	<h5>IF WE HAVE MULTIPLE PRODUCTS AND NEW ONES COMING OUT EVERY TIME, HOW CAN WE INCLUDED THEM?</h5>                                
+                                </div>
+                                <div class="textBlueBorder"></div>
+                                <div class="row noMargin faqTextInfo" id="faq6">
+                                    <h5>Visionaries has corporate accounts with companies like LEGO which require long term partnerships and constant development jobs. Visionaries 777 can sign long term partnership agreements with companies that require the configurators to be updated regularly or require new ones every time a new product is launched.</h5>
+                                </div>
+                            </div>					
+                        </div>
+			
+                    </div>	
+                </div>		
+            </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="section">
+        <section id="interested">
+            <div class="container-fluid noMargin fullWidth noPadding">           
+                <div class="caption"></div>
+                <div class="col-sm-12 noPadding Topic">
+                    <h3>INTERESTED?</h3>
+                    <div class="blueborder"></div>
+                </div>
+                <div class="row noMargin TopicText" id="text">
+                    <h5> Contact us to find out how our configurator can benefit your dealerships and sales.</h5>
+                </div>
+                
+                <div class="row noMargin contactBoard">
+                	<div class="row noMargin">
+                        <div class="col-sm-4" id="textlayer">
+                            <div class="row noMargin">
+                                <div class="col-sm-12 noPadding">
+                                    <img src="svg/tick_icon.svg" class="img-responsive">
+                                    <h5>Contact us about any case or idea.</h5>
+                                </div>
+                                <div class="col-sm-12 noPadding">
+                                    <img src="svg/tick_icon.svg" class="img-responsive">
+                                    <h5>Receive a personalised response.</h5>
+                                </div>
+                                <div class="col-sm-12 noPadding">
+                                    <img src="svg/tick_icon.svg" class="img-responsive">
+                                    <h5>Request a live demo of the Virtual Showroom solution.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">		
+                            <div class="contact-form">	
+                                <form id="myForm" method="POST" action="./sendMail.php" accept-charset="UTF-8">							
+                                    <input name="name" type="text" value="Name" id="textfield" class="textbox emailMargin">									
+                                    <input name="email" type="text" value="Email" id="textfield" class="textbox">									
+                                    <textarea name="comment" cols="50" rows="5" id="textfield" class="textbox">Message</textarea>								
+                                    <button type="button" class="textbox floatRight" onclick="">SEND</button>									
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="section">
+    	<section id="footer">
+            <div class="bottomLayer" id="bottomDiv">
+                <div class="iconLayer">
+                    <div class="row">            
+                        <a href="https://www.behance.net/visionaries777" target="_blank"><img src="svg/behance_icon.svg"></a>
+                        <a href="https://www.youtube.com/c/visionaries777" target="_blank"><img src="svg/youtube_icon.svg"></a>
+                        <a href="mailto:contact@visionaries777.com"><img src="svg/mail_icon.svg"></a>
+                        <a href="https://twitter.com/visionaries777" target="_blank"><img src="svg/twitter_icon.svg"></a>
+                    </div>
+                    <div class="row">           
+                        <a href="https://www.instagram.com/visionaries777/" target="_blank"><img src="svg/instagram_icon.svg"></a>
+                        <a href="https://www.linkedin.com/company/visionaries-777" target="_blank"><img src="svg/linkedin_icon.svg"></a>
+                        <a href="https://www.facebook.com/Visionaries777" target="_blank"><img src="svg/facebook_icon.svg"></a>
+                        <a href="https://vimeo.com/visionaries777" target="_blank"><img src="svg/vimeo_icon.svg"></a>
+                    </div>    
+                    <p><h4>©2016 VISIONARIES 777 LIMITED</h4></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="section">
+    	<section id="video">
+        	<!--div class="row noMargin">
+            	<h3>Video Trailers</h3>
+            </div!-->
+            <div id="videoCarousel" class="carousel slide fullHeight" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li id="0" class="videoBtn active down"></li>
+                    <li id="1" class="videoBtn up"></li>
+                    <li id="2" class="videoBtn down"></li>
+                </ol>            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner fullHeight" role="listbox">
+                    <div class="item active fullHeight">
+                    	<iframe id="youtubeVideo1" src="https://www.youtube.com/embed/eOUreszqYRc?enablejsapi=1&controls=0&showinfo=1" frameborder="0" allowfullscreen></iframe>
+                    </div>                    
+                    <div class="item fullHeight">
+                    	<iframe id="youtubeVideo2" src="https://www.youtube.com/embed/UIEnoRI5oIg?enablejsapi=1&controls=0&showinfo=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="item fullHeight">
+                    	<iframe id="youtubeVideo3" src="https://www.youtube.com/embed/krLI07Wwgog?enablejsapi=1&controls=0&showinfo=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </div>
+</div>
+</body>
+</html>
