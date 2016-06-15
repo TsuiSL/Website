@@ -1,12 +1,13 @@
 $(document).ready(function(){	
+	
+});
+
+$(window).load(function() {
 	if($(window).width() > 769){
 		$('#index')[0].style.display = "block";
 	}else{
 		$('#index')[0].style.display = "none";
 	}
-});
-
-$(window).load(function() {
 	$('#fullpage').fullpage({
 		'verticalCentered': false,
 		'css3': true,
