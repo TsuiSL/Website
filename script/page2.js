@@ -7,7 +7,8 @@ $(document).ready(function(){
 			'./images/features/feature_cross_02.jpg',
 			'./images/features/feature_environment_01.jpg',
 			'./images/features/feature_environment_02.jpg');
-	
+});
+$(window).load(function() {
 	if($(window).width() <= 768){
 		$(".insText")[1].children[0].style.opacity= "0.3";
 		$(".addText")[1].children[0].style.opacity= "0.3";
@@ -30,7 +31,6 @@ $(document).ready(function(){
 	videoBtn();
 	setVideoSize();
 });
-
 $(window).resize(function(){	
 	if($(window).width() <= 768){
 		$(".insText")[1].children[0].style.opacity= "0.3";
