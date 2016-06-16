@@ -1,9 +1,5 @@
-$(document).ready(function(){
-});
-
 var progress = setInterval(function () {
     var $bar = $("#bar");
-
     if ($bar.width() >= 200) {
         clearInterval(progress);
     } else {
@@ -14,8 +10,6 @@ var progress = setInterval(function () {
       $bar.text("Still working ... " + $bar.width() / 2 + "%");
     }
 }, 800);
-
 $(window).load(function() {
-  //$("#bar").width(200);
-  $(".loader").delay(1300).fadeOut("slow");
+  $(".loader").delay(500).fadeOut();
 });
