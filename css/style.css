@@ -295,7 +295,6 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .hideMargin{height:10%;}
 .galleryMaxWidth{width:100%;}
 .bSubText{display:flex;}
-.itemLayer img{position:relative;left:50%;transform:translateX(-50%);}
 #gallerySetting{display:table-cell;vertical-align:middle;}
 #gallerySetting>div{display:table-cell;}
 #displayTable{display:table;}
