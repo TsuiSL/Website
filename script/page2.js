@@ -483,7 +483,7 @@ function caseStudyBg(num){
 	$($(".csArrow")[num-1]).addClass("fill");
 	switch(num){
 		case 1:
-			img = "url(./images/configurator_background.png)";
+			img = "url(https://res.cloudinary.com/http-www-vz777-com/image/upload/c_scale,q_50,w_3000/v1465976419/configurator_background_fjzo7k.jpg)";
 		break;
 		case 2:
 			img = "url(./images/faq_background.jpg)";
