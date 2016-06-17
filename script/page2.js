@@ -64,7 +64,7 @@ var firstTime = true;
 		//'sectionsColor': ['#454545', '#454545', '#454545', '#454545', '#454545', '#454545', '#454545', '#454545'],
 		'navigation': true,
 		'navigationPosition': 'right',
-		'navigationTooltips': ['HOME', 'BENFITS', 'FEATURES', 'INSTALLATION', 'ADDITIONAL', 'CASESTUDY', 'CLIENTS', 'FAQ', 'INTERESTED', 'FOOTER', 'VIDEO'],
+		'navigationTooltips': ['HOME', 'BENFITS', 'FEATURES', 'INSTALLATION', 'ADDITIONAL', 'CASESTUDY', 'CLIENTS', 'FAQ', 'INTERESTED', 'VIDEO', 'FOOTER'],
 
 		'afterLoad': function(anchorLink, index){
 			if(index == 1){
@@ -202,12 +202,12 @@ var firstTime = true;
 				$('.Topic').eq(8).addClass('visible animated fadeInUp');
 				$('.contactBoard').addClass('visible animated fadeIn');
 			}
-			if(index == 10){
+			if(index == 11){
 			    for (var i = 0; i < $(svgElem)[0].childNodes.length; i++) {
 			        $($(svgElem)[0].childNodes[i]).delay(($(svgElem)[0].childNodes.length - 1) * 3 - i * 3).fadeIn();
 			    }						
 			}
-			if(index == 11){
+			if(index == 10){
 				player1.playVideo();
 			}			
 		},
@@ -216,7 +216,7 @@ var firstTime = true;
 			if(index == 1){
 				$(".navtopbar").addClass("opacityZero");
 			}
-			if(index == 11){
+			if(index == 10){
 				player1.pauseVideo();
 				player2.pauseVideo();
 				player3.pauseVideo();
@@ -279,7 +279,7 @@ function videoBtn(){
 }
 
 function setVideoSize(){
-	var width = $(window).width() * 90/100;
+	var width = $(window).width() * 70/100;
 	var height = width*9/16 + "px";
 	width += "px";
 	$("#youtubeVideo1")[0].style.width = width;
@@ -393,52 +393,52 @@ function featurePoint(num){
 	
 	switch(num){
 		case 1:
-			img1 = "url(./images/features/feature_paint_01.jpg)";
-			img2 = "url(./images/features/feature_paint_02.jpg)";
+			img1 = "url(./images/Features/feature_paint_01.jpg)";
+			img2 = "url(./images/Features/feature_paint_02.jpg)";
 		break;
 		case 2:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_02.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_02.jpg)";
 		break;
 		case 3:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 4:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 5:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 6:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 7:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 8:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 9:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 10:
-			img1 = "url(./images/features/feature_specs_01.jpg)";
-			img2 = "url(./images/features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_specs_01.jpg)";
+			img2 = "url(./images/Features/feature_specs_01.jpg)";
 		break;	
 		case 11:
-			img1 = "url(./images/features/feature_cross_01.jpg)";
-			img2 = "url(./images/features/feature_cross_02.jpg)";
+			img1 = "url(./images/Features/feature_cross_01.jpg)";
+			img2 = "url(./images/Features/feature_cross_02.jpg)";
 		break;	
 		case 12:
-			img1 = "url(./images/features/feature_environment_01.jpg)";
-			img2 = "url(./images/features/feature_environment_02.jpg)";
+			img1 = "url(./images/Features/feature_environment_01.jpg)";
+			img2 = "url(./images/Features/feature_environment_02.jpg)";
 		break;	
 	}	
 	$(".featuresChild").animate({

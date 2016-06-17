@@ -13,7 +13,6 @@ $(window).load(function() {
 		'css3': true,
 		'navigation': false,
 		'navigationPosition': 'right',
-
 		'afterLoad': function(anchorLink, index){
 			if($(window).width() <= 769){
 				if(index == 1){				
