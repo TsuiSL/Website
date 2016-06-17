@@ -143,7 +143,6 @@ ol{margin:0 auto;}
 .insText h3, .addText h3{cursor:default;-webkit-transition:opacity 0.3s, -webkit-transform 0.3s;transition:opacity 0.3s, transform 0.3s;}
 #installation>div , #additional>div{display:table-cell;vertical-align:middle;}
 #installation #border, #additional #border{border-bottom:#2c4ff9 2px solid;display:inline-block;line-height:150%;margin:0 auto;}
-#installation #topic, #additional #topic{}
 #installation #point, #additional #point{margin:20px auto;display:inline-block;text-align:left;}
 #installation #point div, #additional #point div{cursor:pointer;}
 #installation #point img, #additional #point img{width:40px;position:absolute;-webkit-transform:translate(-100%,-25%);transform:translate(-100%,-25%);opacity:0.3;-webkit-transition:opacity 0.3s, -webkit-transform 0.3s;transition:opacity 0.3s, transform 0.3s;}
@@ -265,11 +264,12 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .boxEnter{margin:0 auto;margin-top:80px;overflow:hidden;-webkit-transition:all 0.25s ease-out;transition:all 0.25s ease-out;height:0;}
 .boxEnter h3{text-align:center;background-color:#2C4FF9;cursor:pointer;border-radius:10px;width:110px;margin:0 auto;padding:10px 10px;}
 .boxEnter a{Color:#fff;text-decoration:none;}
-#video{width:100%;height:100%;}
-#video iframe{border:none;position:relative;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%);}
+#video{width:100%;height:100%;text-align:center;display:table;}
+#video .container-fluid{display:table-cell;vertical-align: middle;}
+#video iframe{border:none;position:relative;}
 .videoBtn{cursor:pointer;}
 #video .carousel-indicators{position:relative;bottom:0px;margin-top: 10px;}
-#video .carousel-inner {position: relative;top: 50%;transform:translateY(-50%);}
+#video .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:25px;}
 @media screen and (min-width:769px){.featuresPoint div:hover img, .featuresPoint div:hover h5{opacity:1;}
 #installation #point div:hover img, #installation #point div:hover h5,
 #additional #point div:hover img, #additional #point div:hover h5{opacity:1 !important;}
