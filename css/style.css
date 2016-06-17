@@ -237,7 +237,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .slidesLayer{z-index:1;width:100%;height:100%;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
 .slidesContainer{float:left;position:relative;height:100%;display:block;-webkit-transition:all 0.3s ease-out;transition:all 0.3s ease-out;width:100%}
 .slideContent{width:50%;float:left;height:100%;display:block;}
-.homeBtn{position:absolute;width:50px;height:50px;top:2%;background:rgba(44, 78, 248, 0.75);z-index:80;right:3%;display:none;-webkit-transition:opacity 0.3s;transition:opacity 0.3s;border-radius:10px;}
+.homeBtn{position:absolute;width:50px;height:50px;top:2%;background:rgba(44, 78, 248, 0.75);z-index:80;right:3%;-webkit-transition:opacity 0.3s;transition:opacity 0.3s;border-radius:10px;}
 .homeBtn img{opacity:0.9;width:50%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(180deg);}
 .benfitsSlider{width:100%;text-align:left;-webkit-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
 .benfitsSlider>div{width:50%;float:left;}
@@ -312,7 +312,6 @@ h5{font-size:12px !important;}
 #features .col-sm-12{margin-top:5px;margin-bottom:5px;}
 #features h3{margin-bottom:5px;}
 #fp-nav{display:none;}
-.homeBtn{display:block;}
 .benfitsSlider{width:200%;}
 .benfitsLayer .row{max-width:200%;}
 #bsTextMaxWidth{max-width:135px;}
