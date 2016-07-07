@@ -1,12 +1,42 @@
 $(document).ready(function(){
-	$.preload('./images/features/feature_paint_01.jpg',
-			'./images/features/feature_paint_02.jpg',
-			'./images/features/feature_specs_01.jpg',
-			'./images/features/feature_specs_02.jpg',
-			'./images/features/feature_cross_01.jpg',
-			'./images/features/feature_cross_02.jpg',
-			'./images/features/feature_environment_01.jpg',
-			'./images/features/feature_environment_02.jpg');
+	$.preload('./images/Features/feature_configure_01_gzbeln.jpg',	
+			'./images/Features/feature_configure_02_wd52ly.jpg',
+			'./images/Features/feature_visualize_01_gmtq0z.jpg',
+			'./images/Features/feature_visualize_02_cngvgt.jpg',
+			'./images/Features/feature_view_01_z7lmng.jpg',
+			'./images/Features/feature_view_02_fql06w.jpg',
+			'./images/Features/feature_collect_01_kzfgqi.jpg',
+			'./images/Features/feature_collect_02_iy1kl3.jpg',
+			'./images/Features/feature_share_01_ibwqz8.jpg',
+			'./images/Features/feature_share_02_gs2wdw.jpg',
+			'./images/Features/feature_explore_01_bbwvnj.jpg',
+			'./images/Features/feature_explore_02_hqacr7.jpg',
+			'./images/Features/feature_deploy_01_havaau.jpg',
+			'./images/Features/feature_deploy_02_d9sxzq.jpg',
+			'./images/Features/feature_engage_01_ak15k8.jpg',
+			'./images/Features/feature_engage_02_lq0fui.jpg',
+			'./images/Features/feature_enhance_01_gzpm1m.jpg',
+			'./images/Features/feature_enhance_02_vdfm2i.jpg',
+			'./images/Features/feature_immerse_01_pbxgjc.jpg',
+			'./images/Features/feature_immerse_02_fcfvmc.jpg',
+			'./images/Features/feature_cross_01_dt2mca.jpg',
+			'./images/Features/feature_cross_02_xcbjdh.jpg',
+			'./images/Features/feature_environment_01_p0vsen.jpg',
+			'./images/Features/feature_environment_02_jmbpll.jpg',
+			'./images/Installation/Installation_4ktouch.jpg',
+			'./images/Installation/Installation_mobile.jpg',
+			'./images/Installation/Installation_projection.jpg',
+			'./images/Installation/Installation_tablet.jpg',
+			'./images/Installation/Installation_videowall.jpg',
+			'./images/Additional/Additional_touch.jpg',
+			'./images/Additional/Additional_gesture.jpg',
+			'./images/Additional/Additional_remote.jpg',
+			'./images/Additional/additional_vr_standalone_nplohs.jpg',
+			'./images/Additional/Additional_analytics.jpg',
+			'./images/Additional/Additional_ar.jpg',
+			'./images/Additional/additional_vr_mobile_ray8ba.jpg',
+			'./images/Additional/Additional_analytics.jpg'
+			);	
 });
 $(window).load(function() {
 	if($(window).width() <= 768){
@@ -390,55 +420,55 @@ function featurePoint(num){
 	$(".featuresChild").stop();
 	var img1;
 	var img2;
-	
+				
 	switch(num){
 		case 1:
-			img1 = "url(./images/Features/feature_paint_01.jpg)";
-			img2 = "url(./images/Features/feature_paint_02.jpg)";
+			img1 = "url(./images/Features/feature_configure_01_gzbeln.jpg)";
+			img2 ="url(./images/Features/feature_configure_02_wd52ly.jpg)";
 		break;
 		case 2:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_02.jpg)";
+			img1 = "url(./images/Features/feature_visualize_01_gmtq0z.jpg)";
+			img2 = "url(./images/Features/feature_visualize_02_cngvgt.jpg)";
 		break;
 		case 3:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_view_01_z7lmng.jpg)";
+			img2 = "url(./images/Features/feature_view_02_fql06w.jpg)";
 		break;	
 		case 4:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_collect_01_kzfgqi.jpg)";
+			img2 = "url(./images/Features/feature_collect_02_iy1kl3.jpg)";
 		break;	
 		case 5:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_share_01_ibwqz8.jpg)";
+			img2 = "url(./images/Features/feature_share_02_gs2wdw.jpg)";
 		break;	
 		case 6:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_explore_01_bbwvnj.jpg)";
+			img2 = "url(./images/Features/feature_explore_02_hqacr7.jpg)";
 		break;	
 		case 7:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_deploy_01_havaau.jpg)";
+			img2 = "url(./images/Features/feature_deploy_02_d9sxzq.jpg)";
 		break;	
 		case 8:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_engage_01_ak15k8.jpg)";
+			img2 = "url(./images/Features/feature_engage_02_lq0fui.jpg)";
 		break;	
 		case 9:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_enhance_01_gzpm1m.jpg)";
+			img2 = "url(./images/Features/feature_enhance_02_vdfm2i.jpg)";
 		break;	
 		case 10:
-			img1 = "url(./images/Features/feature_specs_01.jpg)";
-			img2 = "url(./images/Features/feature_specs_01.jpg)";
+			img1 = "url(./images/Features/feature_immerse_01_pbxgjc.jpg)";
+			img2 = "url(./images/Features/feature_immerse_02_fcfvmc.jpg)";
 		break;	
 		case 11:
-			img1 = "url(./images/Features/feature_cross_01.jpg)";
-			img2 = "url(./images/Features/feature_cross_02.jpg)";
+			img1 = "url(./images/Features/feature_cross_01_dt2mca.jpg)";
+			img2 = "url(./images/Features/feature_cross_02_xcbjdh.jpg)";
 		break;	
 		case 12:
-			img1 = "url(./images/Features/feature_environment_01.jpg)";
-			img2 = "url(./images/Features/feature_environment_02.jpg)";
+			img1 = "url(./images/Features/feature_environment_01_p0vsen.jpg)";
+			img2 = "url(./images/Features/feature_environment_02_jmbpll.jpg)";
 		break;	
 	}	
 	$(".featuresChild").animate({
@@ -534,29 +564,29 @@ function InstallationBg(imgNum, num){
 
 function swicthInstallationImg(num){
 	var img;
-	switch(num){
+	switch(num){	
 		case 1:
-		img = ["images/Installation/Installation_4ktouch.jpg",
-				"images/Installation/Installation_projection.jpg",
-				"images/Installation/Installation_videowall.jpg"];
+		img = ["./images/Installation/Installation_4ktouch.jpg",
+				"./images/Installation/Installation_projection.jpg",
+				"./images/Installation/Installation_videowall.jpg"];
 		break;
 		
 		case 2:
-		img = ["images/Installation/Installation_tablet.jpg",
-				"images/Installation/Installation_mobile.jpg"];
+		img = ["./images/Installation/Installation_tablet.jpg",
+				"./images/Installation/Installation_mobile.jpg"];
 		break;
 		
 		case 3:
-		img = ["images/Additional/Additional_touch.jpg",
-				"images/Additional/Additional_gesture.jpg",
-				"images/Additional/Additional_remote.jpg",
-				"images/Additional/Additional_vr.jpg",
-				"images/Additional/Additional_analytics.jpg"];
+		img = ["./images/Additional/Additional_touch.jpg",
+				"./images/Additional/Additional_gesture.jpg",
+				"./images/Additional/Additional_remote.jpg",
+				"./images/Additional/additional_vr_standalone_nplohs.jpg",
+				"./images/Additional/Additional_analytics.jpg"];
 		break;
 		case 4:
-		img = ["images/Additional/Additional_ar.jpg",
-				"images/Additional/Additional_vr.jpg",
-				"images/Additional/Additional_analytics.jpg"];
+		img = ["./images/Additional/Additional_ar.jpg",
+				"./images/Additional/additional_vr_mobile_ray8ba.jpg",
+				"./images/Additional/Additional_analytics.jpg"];
 		break;
 	}
 	
