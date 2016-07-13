@@ -276,7 +276,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .videoBtn{cursor:pointer;}
 #video .carousel-indicators{position:relative;bottom:0px;margin-top: 10px;}
 #video .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:25px;}
-#analyics{height: 100%;position: relative;background:url(../images/Additional/Additional_analytics.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;width: 100%;display:table;}
+#analyics{height: 100%;position: relative;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468387422/automotive_analytics_ymgrnh.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;width: 100%;display:table;}
 .analyicsIcon img{width: 50%;max-width: 100px;margin-bottom:20px;}
 #analyics h3{margin-top:10px;}
 #analyics .container-fluid{position:relative;z-index:1;max-width:1200px;display:table-cell;vertical-align: middle;}
