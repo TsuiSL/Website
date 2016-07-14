@@ -148,6 +148,7 @@ ol{margin:0 auto;}
 .featuresPoint div img,.featuresPoint div h5{opacity:0.3;-webkit-transition:opacity 0.3s, -webkit-transform 0.3s;transition:opacity 0.3s, transform 0.3s;}
 .featuresPoint .selected img, .featuresPoint .selected h5,.featuresPoint div:focus img, .featuresPoint div:focus h5{opacity:1;}
 #installation, #additional{height:100%;text-align:center;display:table;}
+#installation p, #additional p{margin:10px auto;}
 .insText, .addText{width:50%;float:left;display:inline-block;}
 .insText h3, .addText h3{cursor:default;-webkit-transition:opacity 0.3s, -webkit-transform 0.3s;transition:opacity 0.3s, transform 0.3s;}
 #installation>div , #additional>div{display:table-cell;vertical-align:middle;}
