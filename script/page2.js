@@ -92,7 +92,7 @@ var firstTime = true;
 		//'sectionsColor': ['#454545', '#454545', '#454545', '#454545', '#454545', '#454545', '#454545', '#454545'],
 		'navigation': true,
 		'navigationPosition': 'right',
-		'navigationTooltips': ['HOME', 'BENFITS', 'FEATURES', 'INSTALLATION', 'ADDITIONAL', 'ANALYTICS', 'CASESTUDY', 'CLIENTS', 'FAQ', 'INTERESTED', 'VIDEO', 'FOOTER'],
+		'navigationTooltips': ['HOME', 'VIDEO', 'BENFITS', 'FEATURES', 'INSTALLATION', 'ADDITIONAL', 'ANALYTICS', 'CASESTUDY', 'CLIENTS', 'FAQ', 'INTERESTED', 'FOOTER'],
 
 		'afterLoad': function(anchorLink, index){
 			if(index == 1){
