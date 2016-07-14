@@ -34,7 +34,8 @@ ol{margin:0 auto;}
 .section{overflow:hidden;}
 .section #footer{height:100%;display:table;}
 .section .bottomLayer{display:table-cell;vertical-align:bottom;}
-.carouselTopic{position:absolute;bottom:50px;left:30px;display:block;}
+.carouselTopic{position:absolute;bottom:50px;left:30px;display:block;z-index:5;}
+.gradBg{position: absolute;bottom: 0;z-index: 1;width: 100%;height: 20%;background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));}
 .carouselTopic img{opacity:0;-webkit-transition:opacity 0.4s, -webkit-transform 0.4s;transition:opacity 0.4s, transform 0.4s;-webkit-transition-delay:0s;transition-delay:0s;}
 .carouselTopic #icon1{-webkit-transform:translateY(40%);transform:translateY(40%);}
 .carouselTopic #icon2{max-width:80px;-webkit-transform:translateY(25%);transform:translateY(25%);}
@@ -87,9 +88,9 @@ ol{margin:0 auto;}
 .navbar-nav>li>a:after{-webkit-transform:translateY(22px);transform:translateY(22px);}
 .navbar .navbar-nav>li>a:after, .navbar .navbar-nav>li>a:before{position:absolute;width:100%;left:0%;top:50%;bottom:50%;height:1px;background:#fff;content:'';z-index:-1;-webkit-transition:opacity .3s,-webkit-transform .3s;transition:opacity .3s,-webkit-transform .3s;transition:transform .3s,opacity .3s;transition:transform .3s,opacity .3s,-webkit-transform .3s;pointer-events:none;}
 #home{height:100%;}
-.bg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376705/automotive_banner1_gdquwf.jpg);background-size:cover;background-position:50% 50%;}
-.bg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376705/automotive_banner2_okopzo.jpg);background-position:50% 0%;background-size:cover;}
-.bg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376707/automotive_banner3_o2mk07.jpg);background-size:cover;background-position:50% 50%;}
+.bg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418713/automotive_banner1_j088se.jpg);background-size:cover;background-position:50% 50%;}
+.bg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418716/automotive_banner2_xis3u5.jpg);background-position:50% 0%;background-size:cover;}
+.bg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418716/automotive_banner3_jdskl3.jpg);background-size:cover;background-position:50% 50%;}
 .bg4{width:100%;height:100%;background:url();background-size:cover;background-position:50% 50%;}
 .bg5{width:100%;height:100%;background:url();background-size:cover;background-position:50% 50%;}
 .introBg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_jewellery_o0qjfr.jpg);background-size:cover;background-position:50% 50%;}
@@ -168,7 +169,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #clients h3{margin:10px auto;}
 #logoLayer{position:relative;margin-top:10px;margin-bottom:45px;}
 .blurBg .caption{top:0;left:0;opacity:0.5;}
-#clients .blurBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376705/automotive_clients_cgimt5.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;z-index:0;}
+#clients .blurBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418702/automotive_clients_bmt6hb.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;z-index:0;}
 .clientBoardLayer{padding:0 10px;}
 .clientBoard{position:relative;width:18%;float:left;padding:0px 0px;display:inline-block;text-align:center;vertical-align:middle;background-color:rgba(44,79,249,0.5);margin:5px 1%;cursor:pointer;}
 .clientBoard:before{content:"";display:block;padding-top:100%;}
@@ -320,7 +321,6 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .featuresChild{position:relative;height:35%;width:100%;}
 #clients #setWidth{max-width:520px;}
 .contactBoard{height:35%;}
-.carouselTopic{display:none;}
 #features>div{display:block;}
 .benfitsLayer #row2{-webkit-transform:translateX(0%);transform:translateX(0%);margin:0 auto;margin-top:10%;margin-bottom:5%;}
 .hideMargin{height:10%;}
@@ -353,6 +353,7 @@ h5{font-size:12px !important;}
 #moblieLine{display:block;}
 #rowLine1{height:80%;}
 #rowLine2{height:80%;}
+.carouselTopic{display:none;}
 }
 @media screen and (max-width:410px){.contactBoard{height:100%;}
 #interested .TopicText{display:none;}
