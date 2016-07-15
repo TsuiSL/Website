@@ -113,7 +113,15 @@ function FullPageFunc() {
                     $(".introTextLayer")[3].childNodes[3].style.transform = "translateX(0px)";
                     $(".ComingSoon")[2].style.opacity = "1";
                 }
-                if (index == 6) {
+				if (index == 6) {
+                    $(".caption")[4].style.opacity = "0.6";
+                    $(".caption")[4].style.backgroundColor = "#2c4ff9";
+                    $(".introTextLayer")[4].childNodes[1].style.opacity = "1";
+                    $(".introTextLayer")[4].childNodes[3].style.opacity = "1";
+                    $(".introTextLayer")[4].childNodes[3].style.transform = "translateX(0px)";
+                    $(".ComingSoon")[3].style.opacity = "1";
+                }
+                if (index == 7) {
                     for (var i = 0; i < $(svgElem)[0].childNodes.length; i++) {
                         $($(svgElem)[0].childNodes[i]).delay(($(svgElem)[0].childNodes.length - 1) * 3 - i * 3).fadeIn();
                     }
@@ -147,6 +155,12 @@ function FullPageFunc() {
                     $(".introTextLayer")[3].childNodes[1].removeAttribute("style");
                     $(".introTextLayer")[3].childNodes[3].removeAttribute("style");
                     $(".ComingSoon")[2].removeAttribute("style");
+                }
+				if (index == 6) {
+                    $(".caption")[4].removeAttribute("style");
+                    $(".introTextLayer")[4].childNodes[1].removeAttribute("style");
+                    $(".introTextLayer")[4].childNodes[3].removeAttribute("style");
+                    $(".ComingSoon")[3].removeAttribute("style");
                 }
             }
         }
