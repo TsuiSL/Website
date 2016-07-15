@@ -265,6 +265,7 @@ var firstTime = true;
 			if(index == 11){
 				$('.Topic').eq(7).addClass('visible animated fadeInUp');
 				$('.Topic').eq(8).addClass('visible animated fadeInUp');
+				$(".TopicText").addClass('visible animated fadeInUp');
 				$('.contactBoard').addClass('visible animated fadeIn');
 			}			
 			if(index == 12){
@@ -677,7 +678,7 @@ function setHidden(){
 	$('.contactBoard').addClass("hiddenHide");
 	$('#text1').addClass("hiddenHide");
 	$('.bSubText').addClass("hiddenHide");
-	
+	$(".TopicText").addClass("hiddenHide");	
 	$('.analyicsTopic').addClass("hiddenHide");
 	$('.analyicsFooter').addClass("hiddenHide");
 	for(var i=0; i<$('.analyicsIcon').length; i++){

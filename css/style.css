@@ -125,7 +125,7 @@ ol{margin:0 auto;}
 .benfitTopic{width:100%;z-index:5;}
 .benfitsLayer #text{position:relative;z-index:6;display:table-cell;vertical-align:middle;height:100%;}
 .hideMargin{height:15%;}
-.benfitsLayer h2, .benfitsLayer h3, #features h3, #clients h3{border-bottom:#2c4ff9 2px solid;display:inline-block;line-height:150%;margin:0 auto;}
+.benfitsLayer h2, .benfitsLayer h3, #features h2, #clients h2{border-bottom:#2c4ff9 2px solid;display:inline-block;line-height:150%;margin:0 auto;}
 .benfitsLayer .col-md-5{text-align:left;margin:0 auto;margin-left:8%;padding:0px 0px;}
 .benfitsLayer #point{margin-top:25px;}
 .tickIcon div{width:20px;height:20px;overflow:hidden;background:#2c4ff9;-webkit-mask-image:url(../svg/tick_icon.svg);-webkit-mask-size:100% 100%;}
@@ -137,7 +137,7 @@ ol{margin:0 auto;}
 #features{height:100%;}
 #features>div{height:100%;display:table;}
 #features .col-sm-6{padding:5px 30px;}
-#features h3{margin-bottom:10px;}
+#features h2{margin-bottom:10px;}
 #features .col-sm-12{margin-top:10px;margin-bottom:10px;cursor:pointer;}
 #features .col-sm-12 img{width:30px;position:absolute;top:50%;transform:translateY(-50%);}
 #features .col-sm-12 h5{margin:0 auto;margin-left:40px;}
@@ -169,7 +169,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .blurBg{background-repeat:no-repeat;background-size:cover;background-position:center center;overflow:hidden;height:100%;width:100%;position:absolute;}
 #clients{height:100%;display:table;width:100%;position:relative;text-align:center;}
 #clientLayer{display:table-cell;vertical-align:middle;}
-#clients h3{margin:10px auto;}
+#clients h2{margin:10px auto;}
 #logoLayer{position:relative;margin-top:10px;margin-bottom:45px;}
 .blurBg .caption{top:0;left:0;opacity:0.5;}
 #clients .blurBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418702/automotive_clients_bmt6hb.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;z-index:0;}
@@ -183,7 +183,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #faqLayer{display:table-cell;vertical-align:middle;position:relative;}
 #FAQ .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:25px;}
 #FAQ .textBlueBorder{height:2px;width:80%;background-color:rgba(44, 79, 249, 1);margin:0 auto;}
-#FAQ h3{margin-bottom:5px;}
+#FAQ h2{margin-bottom:5px;}
 #FAQ h5{margin-left:10px;}
 #FAQ .textRow{cursor:pointer;margin-bottom:5px;}
 #FAQ .textTopic{display:table;margin:10px auto;text-align:left;width:80%;}
@@ -217,8 +217,8 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #interested{position:relative;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376706/automotive_contact_zbsq74.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;text-align:center;}
 #interested .Topic{z-index:5;}
 #interested h3{margin-bottom:10px;}
-#interested .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:25px;}
-#interested #text{max-width:400px;position:relative;}
+#interested .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:10px;}
+#interested #text{max-width:500px;position:relative;display: inline-block;}
 .contactBoard{background-color:rgba(44, 79, 249, 0.5);max-width:800px;width:100%;height:280px;position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:left;display:table;}
 .contactBoard>div{display:table-cell;vertical-align:middle;}
 .contactBoard img{width:20px;transform:translateY(-50%);top:50%;position:absolute;}
