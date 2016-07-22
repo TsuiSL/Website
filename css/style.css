@@ -29,7 +29,8 @@ ol{margin:0 auto;}
 .noPadding{padding:0 0 !important;}
 .fullWidth{width:100%;}
 .fullHeight{height:100%;}
-.floatRight{float:right;}
+.floatRight{float:right !important;}
+.widthAuto{width:auto !important;}
 #index{position:absolute;z-index:5;}
 .navtopbar{position:absolute;width:100%;opacity:1;-webkit-transition:all ease .5s;-moz-transition:all ease .5s;transition:all ease .5s;}
 .opacityZero{-webkit-transform:translateY(-100%);transform:translateY(-100%);}
@@ -225,10 +226,13 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .contactBoard>div{display:table-cell;vertical-align:middle;padding-bottom: 0px;}
 .contactBoard img{width:20px;transform:translateY(-50%);top:50%;position:absolute;}
 .contactBoard h5{display:inline-block;width:80%;margin:6% auto;margin-left:30px;}
+.textDiv{margin:0 auto;width: 49%;display: inline-block;position: relative;}
+.prompt{position:absolute;margin: 0 auto;margin-left: 5px;top: 50%;transform: translateY(-50%);color: #fff;}
+.error{border:1px solid #FF0004 !important;}
 .textbox{background-color:rgba(255, 255, 255, 0.5);border:1px solid #fff;outline:0;color:#fff;padding:0px 5px;font-family:"din";font-size:18px;}
-.contact-form input{margin-top:10px;margin-bottom:10px;width:49%;float:left;}
+.contact-form input{margin-top:10px;margin-bottom:10px;width:100%;float:left;}
 .contact-form textarea{width:100%;max-width:100%;min-height:127px;max-height:127px;margin-top:10px;margin-bottom:5px;}
-.emailMargin{margin-right:2%;}
+.emailMargin{margin-left:1%;}
 .fp-controlArrow{display:none;bottom:0px;}
 #gallerySetting{text-align:center;overflow:hidden;}
 #gallerySetting>div{margin:20px auto;margin-top:120px;}

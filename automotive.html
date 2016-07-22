@@ -765,11 +765,20 @@
                         </div>
                         <div class="col-sm-8">		
                             <div class="contact-form">	
-                                <form id="myForm" method="POST" action="./sendMail.php" accept-charset="UTF-8">							
-                                    <input name="name" type="text" value="Name" id="textfield" class="textbox emailMargin">									
-                                    <input name="email" type="text" value="Email" id="textfield" class="textbox">									
-                                    <textarea name="comment" cols="50" rows="5" id="textfield" class="textbox">Message</textarea>								
-                                    <button type="button" class="textbox floatRight" onclick="">SEND</button>									
+                                <form id="myForm" method="POST" action="./automotive.html" accept-charset="UTF-8">		
+                                	<div class="row textDiv">					
+                                    	<input name="name" type="text" value="" id="fname" class="textbox">
+                                    	<h4 class="prompt">Name</h4></input>
+                                    </div>
+                                    <div class="row textDiv emailMargin">
+                                    	<input name="email" type="text" value="" id="femail" class="textbox">	
+                                    	<h4 class="prompt">email</h4></input>	
+                                    </div>			
+                                    <div class="row noMargin">				
+                                    <textarea name="message" cols="50" rows="5" id="fmsg" class="textbox"></textarea>	
+                                    <h4 class="prompt">Message</h4>										
+                                    <button type="button" class="textbox floatRight widthAuto" id="submitBtn">SEND</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
