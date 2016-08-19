@@ -54,8 +54,8 @@ function FullPageFunc() {
             }
             if (index == 4) {
                 $('.Topic').eq(0).addClass('visible animated fadeInUp');
-                for (var i = 0; i < $('.clientBoard').length; i++) {
-                    $('.clientBoard').eq(i).delay(100 * i).queue(function() {
+                for (var i = 0; i < $('.bwIcon').length; i++) {
+                    $('.bwIcon').eq(i).delay(100 * i).queue(function() {
                         $(this).addClass("visible animated bounceIn");
                     });
                 }
@@ -124,8 +124,8 @@ function tickIconSvg() {
 }
 
 function setHidden() {    
-    for (var i = 0; i < $('.clientBoard').length; i++) {
-        $('.clientBoard').eq(i).addClass("hiddenHide");
+    for (var i = 0; i < $('.bwIcon').length; i++) {
+        $('.bwIcon').eq(i).addClass("hiddenHide");
     }
     for (var i = 0; i < $('#text2')[0].children.length; i++) {
         $($('#text2')[0].children[i]).addClass("hiddenHide");
