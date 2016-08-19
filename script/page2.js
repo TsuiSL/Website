@@ -3,32 +3,17 @@ $(document).ready(function(){check();$.preload('./images/Features/feature_config
 function check(){
 	document.getElementById("submitBtn").addEventListener("click", myFunction);
 	//document.getElementById("fname").addEventListener("click", Select);
-	$("#fname").focus(function(e) {
-		$(".prompt")[0].style.display = "none";
-    });
+	
 	$("#fname").focusout(function(e){
-		var _n = document.forms["myForm"]["name"].value;
-		if (_n == null || _n == "") {	
-			$(".prompt")[0].style.display = "block";
-		}		
+		var _n = document.forms["myForm"]["name"].value;				
 	});
-	$("#femail").focus(function(e) {
-		$(".prompt")[1].style.display = "none";
-    });
+	
 	$("#femail").focusout(function(e){
-		var _e = document.forms["myForm"]["email"].value;
-		if (_e == null || _e == "") {	
-			$(".prompt")[1].style.display = "block";
-		}	
+		var _e = document.forms["myForm"]["email"].value;		
 	});
-	$("#fmsg").focus(function(e) {
-		$(".prompt")[2].style.display = "none";
-    });
+	
 	$("#fmsg").focusout(function(e){
-		var _m = document.forms["myForm"]["message"].value;
-		if (_m == null || _m == "") {	
-			$(".prompt")[2].style.display = "block";
-		}	
+		var _m = document.forms["myForm"]["message"].value;		
 	});
 }
 function myFunction(){

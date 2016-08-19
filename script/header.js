@@ -1,0 +1,7 @@
+$(document).ready(function(){
+	var a1 = "";	var a2 = "";	var a3 = "";	var a4 = "";	switch($("#header").data().slideTo){case 0:a1="class='active'";break;case 1:a2="class='active'";break;case 2:a3="class='active'";break;case 3:a4="class='active'";break;}
+	$("#header")[0].innerHTML = "<nav class='navbar navbar-default navbar-static-top navtopbar'><div class='container fullWidth'><div class='navbar-header'><button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar'><span class='sr-only'>Toggle navigation</span> <span class='icon-bar'></span><span class='icon-bar'></span><span class='icon-bar'></span></button><img src='svg/vz777_logo.svg' id='icon'><a class='navbar-brand' href='./index.html'>VISIONARIES 777</a></div><div id='navbar' class='navbar-collapse collapse'><ul class='nav navbar-nav navbar-right'><li "+a1+"><a href='./configurators.html'><h5>CONFIGURATORS VISUALIZATIONS</h5></a></li><li "+a2+"><a href='http://www.vz777.com/experiences' target='_blank'><h5>INTERACTIVE EXPERIENCES</h5></a></li><li "+a3+"><a href='./products.html'><h5>INTERACTIVE PRODUCTS</h5></a></li><li "+a4+"><a href='http://www.vz777.com/experiences/contact-2/' target='_blank'><h5>CONTACT</h5></a></li></ul></div></div></nav>";});
+
+$(window).resize(function(){
+	
+});

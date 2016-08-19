@@ -103,7 +103,6 @@ function FullPageFunc() {
                     $(".introTextLayer")[2].childNodes[1].style.opacity = "1";
                     $(".introTextLayer")[2].childNodes[3].style.opacity = "1";
                     $(".introTextLayer")[2].childNodes[3].style.transform = "translateX(0px)";
-                    $(".ComingSoon")[1].style.opacity = "1";
                 }
                 if (index == 5) {
                     $(".caption")[3].style.opacity = "0.6";
@@ -111,7 +110,7 @@ function FullPageFunc() {
                     $(".introTextLayer")[3].childNodes[1].style.opacity = "1";
                     $(".introTextLayer")[3].childNodes[3].style.opacity = "1";
                     $(".introTextLayer")[3].childNodes[3].style.transform = "translateX(0px)";
-                    $(".ComingSoon")[2].style.opacity = "1";
+                    $(".ComingSoon")[1].style.opacity = "1";
                 }
 				if (index == 6) {
                     $(".caption")[4].style.opacity = "0.6";
@@ -119,7 +118,7 @@ function FullPageFunc() {
                     $(".introTextLayer")[4].childNodes[1].style.opacity = "1";
                     $(".introTextLayer")[4].childNodes[3].style.opacity = "1";
                     $(".introTextLayer")[4].childNodes[3].style.transform = "translateX(0px)";
-                    $(".ComingSoon")[3].style.opacity = "1";
+                    $(".ComingSoon")[2].style.opacity = "1";
                 }
                 if (index == 7) {
                     for (var i = 0; i < $(svgElem)[0].childNodes.length; i++) {
@@ -148,19 +147,18 @@ function FullPageFunc() {
                     $(".caption")[2].removeAttribute("style");
                     $(".introTextLayer")[2].childNodes[1].removeAttribute("style");
                     $(".introTextLayer")[2].childNodes[3].removeAttribute("style");
-                    $(".ComingSoon")[1].removeAttribute("style");
                 }
                 if (index == 5) {
                     $(".caption")[3].removeAttribute("style");
                     $(".introTextLayer")[3].childNodes[1].removeAttribute("style");
                     $(".introTextLayer")[3].childNodes[3].removeAttribute("style");
-                    $(".ComingSoon")[2].removeAttribute("style");
+                    $(".ComingSoon")[1].removeAttribute("style");
                 }
 				if (index == 6) {
                     $(".caption")[4].removeAttribute("style");
                     $(".introTextLayer")[4].childNodes[1].removeAttribute("style");
                     $(".introTextLayer")[4].childNodes[3].removeAttribute("style");
-                    $(".ComingSoon")[3].removeAttribute("style");
+                    $(".ComingSoon")[2].removeAttribute("style");
                 }
             }
         }

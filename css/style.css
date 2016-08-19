@@ -2,6 +2,8 @@ html, body{height:100%;background-color:#454545;-webkit-touch-callout:none;-webk
 .background{background:url(../images/triangle_pattern.jpg);background-position:left bottom;}
 #footer{background:url(../images/triangle_pattern.jpg);background-position:left bottom;overflow:hidden;}
 .loader{position:fixed;left:0;top:0;width:100%;height:100%;z-index:99;background-color:#454545;}
+
+
 @keyframes spaceshipMove{0%{top:35%;}
 50%{top:25%;}
 100%{top:35%;}
@@ -96,6 +98,9 @@ ol{margin:0 auto;}
 .bg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418716/automotive_banner3_jdskl3.jpg);background-size:cover;background-position:50% 50%;}
 .bg4{width:100%;height:100%;background:url();background-size:cover;background-position:50% 50%;}
 .bg5{width:100%;height:100%;background:url();background-size:cover;background-position:50% 50%;}
+.bwBg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);background-size:cover;background-position:50% 50%;}
+.bwBg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);background-size:cover;background-position:50% 50%;}
+.bwBg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);background-size:cover;background-position:50% 50%;}
 .introBg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_jewellery_o0qjfr.jpg);background-size:cover;background-position:50% 50%;}
 .introBg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_automotive_igscef.jpg);background-size:cover;background-position:50% 50%;}
 .introBg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_interiordesign_bu5fp5.jpg);background-size:cover;background-position:50% 50%;}
@@ -195,16 +200,18 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .infoIcon div{width:20px;height:20px;overflow:hidden;background:#2c4ff9;-webkit-mask-image:url(../svg/info_icon.svg);-webkit-mask-size:100% 100%;}
 #FAQ .blurBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376706/automotive_faq_earhtp.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;z-index:0;}
 .faqTextInfo{overflow:hidden;background-color:rgba(44, 79, 249, 0.3);padding:0px 10px;height:0;text-align:justify;width:80%;-webkit-transition:height 0.15s ease-out;transition:height 0.15s ease-out;}
-#caseStudy{height:100%;position:relative;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418713/automotive_banner1_j088se.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;width:100%;display:table;}
+#caseStudy{height:100%;position:relative;background-repeat:no-repeat;background-size:cover;background-position:center center;width:100%;display:table;}
+.carBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418713/automotive_banner1_j088se.jpg);}
+.bwBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);}
 .caseStudyBoard{width:32%;display:inline-block;}
 .caseStudyBoard h3{margin:15px auto;}
 #caseStudy>div{display:table-cell;vertical-align:middle;}
 #caseStudy .caption, #interested .caption, #analyics .caption{z-index:0;opacity:0.5;}
-#caseStudy #topic{margin:10px auto;max-width:1024px;display:table;transform:translateY(20%);}
-#caseStudy #topicLeft{width:50%;text-align:right;position:relative;display:inline-block;}
+#caseStudy #topic{margin:10px auto;max-width:1024px;display:table;}
+#caseStudy #topicLeft{text-align:right;position:relative;display:table-cell;vertical-align: middle;}
 #caseStudy #topicLeft h3{max-width:110px;float:right;line-height:40px;font-size:35px;margin:0 10%;position:relative;right:0;}
-#caseStudy #topicRight{width:50%;text-align:left;position:relative;display:inline-block;float:right;border-left:2px #2c4ff9 solid;transform:translateY(-20%);}
-#caseStudy #topicRight img{margin:0px 8%;}
+#caseStudy #topicRight{text-align:left;position:relative;display: table-cell;vertical-align: middle;float:right;border-left:2px #2c4ff9 solid;}
+#caseStudy #topicRight img{margin:0px 8%; width:100%; max-width:120px;}
 #caseStudy #text1{margin:10px auto;max-width:520px;text-align:center;}
 #caseStudy #text2{margin:10px auto;max-width:520px;text-align:center;padding:0 10px;}
 #caseStudy #blue{color:#2c4ff9;text-shadow:0.5px 0.5px #2c4ff9, -0.5px -0.5px #2c4ff9, -0.5px 0.5px #2c4ff9, 0.5px -0.5px #2c4ff9;}
@@ -217,7 +224,9 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #caseStudy .triangleLayer .fill{background:url(../svg/triangleon_icon.svg);background-repeat:no-repeat;background-size:100% 100%;}
 #caseStudy .triangleLayer .up{-ms-transform:rotate(30deg);-webkit-transform:rotate(30deg);transform:rotate(30deg);top:3px;}
 #caseStudy .triangleLayer .down{-ms-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);transform:rotate(-30deg);top:-3px;}
-#interested{position:relative;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376706/automotive_contact_zbsq74.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;text-align:center;}
+#interested{position:relative;height:100%;background-repeat:no-repeat;background-size:cover;background-position:center center;text-align:center;}
+.interestBg1{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376706/automotive_contact_zbsq74.jpg);}
+.interestBg2{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577997/interiordesign_contact_w0peaf.jpg);}
 #interested .Topic{z-index:5;}
 #interested h3{margin-bottom:10px;}
 #interested .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:10px;}
@@ -227,7 +236,6 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .contactBoard img{width:20px;transform:translateY(-50%);top:50%;position:absolute;}
 .contactBoard h5{display:inline-block;width:80%;margin:6% auto;margin-left:30px;}
 .textDiv{margin:0 auto;width: 49%;display: inline-block;position: relative;}
-.prompt{position:absolute;margin: 0 auto;margin-left: 5px;top: 50%;transform: translateY(-50%);color: #fff;}
 .error{border:1px solid #FF0004 !important;}
 .textbox{background-color:rgba(255, 255, 255, 0.5);border:1px solid #fff;outline:0;color:#fff;padding:0px 5px;font-family:"din";font-size:18px;}
 .contact-form input{margin-top:10px;margin-bottom:10px;width:100%;float:left;}
@@ -265,7 +273,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .boxDetailImg{overflow:hidden;}
 .boxDetailImg img{max-width:100%;position:relative;right:100%;-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;}
 .boxDetailBox{width:100%;display:inline-block;vertical-align:middle;transform:translateY(-4%);-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;}
-#BoxSection{margin:50px auto;}
+#BoxSection{margin:50px auto;margin-top: 130px;}
 .boxLogoLayer{position:absolute;width:100%;margin:0 auto;margin-top:10px;-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;opacity:0;top:0;}
 .boxLogoLayer .boxlogo{width:20%;display:table-cell;vertical-align:middle;}
 .boxlogo img{width:80%;margin:0 auto;}
@@ -310,9 +318,8 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #triangleR{float: right;transform: translate(100%,-7.5px);border-width: 9px 0 9px 15px;border-color: transparent transparent transparent #ffffff;}
 #triangleL{float: left;transform: translate(-100%,-7.5px);border-width: 9px 15px 9px 0;border-color: transparent #ffffff transparent transparent;}
 #moblieLine{display: none;width: 80%;left: 50%;transform: translateX(-50%);}
-
-
 h3_1{font-size:22px;margin:10px auto;color:#fff;font-family:"din";}
+.bwIcon{width:100px;}
 @media screen and (min-width:769px){.featuresPoint div:hover img, .featuresPoint div:hover h5{opacity:1;}
 #installation #point div:hover img, #installation #point div:hover h5,
 #additional #point div:hover img, #additional #point div:hover h5{opacity:1 !important;}
@@ -369,6 +376,8 @@ h5{font-size:12px !important;}
 #rowLine1{height:80%;}
 #rowLine2{height:80%;}
 .carouselTopic{display:none;}
+#caseStudy #topicRight img{max-width:90px;}
+#caseStudy #topicLeft h3{line-height:30px;}
 }
 @media screen and (max-width:410px){.contactBoard{height:100%;}
 #interested .TopicText{display:none;}
@@ -377,3 +386,7 @@ h5{font-size:12px !important;}
 @font-face{font-family:"din";src:url(../fonts/DIN.ttf) format('truetype');src:url("../fonts/DIN.woff") format('woff');}
 h2, h3, h4, h5{color:white;font-family:"din";}
 h5{font-size:16px;}
+::-webkit-input-placeholder {color: white;}
+::-moz-placeholder {color: white;}
+:-ms-input-placeholder {color: white;}
+:-moz-placeholder {color: white;}
