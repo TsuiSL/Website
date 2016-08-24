@@ -52,7 +52,11 @@ function FullPageFunc() {
             if (index == 2) {
                 switch (videoId) {
                     case '0':
-                        player1.playVideo();
+						try{
+                        	player1.playVideo();
+						}catch(err){
+							console.log(err);
+						}
                         break;
                 }
             }
@@ -124,15 +128,13 @@ function FullPageFunc() {
         }
     });
 }
-
+var player1;
 function YoutubeAPI() {
     var tag = document.createElement('script');
     tag.src = "../script/youtubeAPI.js";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 }
-var player1;
-
 function onYouTubePlayerAPIReady() {
     player1 = new YT.Player('youtubeVideo1', {});
 }
