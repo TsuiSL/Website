@@ -127,7 +127,7 @@ function FullPageFunc() {
 
 function YoutubeAPI() {
     var tag = document.createElement('script');
-    tag.src = "./script/youtubeAPI.js";
+    tag.src = "../script/youtubeAPI.js";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 }
@@ -227,7 +227,7 @@ function myFunction() {
         } else {
             xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
         }
-        $.post("sendMail.php", {
+        $.post("../sendMail.php", {
             name: _n,
             email: _e,
             message: _m

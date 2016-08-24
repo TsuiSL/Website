@@ -103,6 +103,9 @@ ol{margin:0 auto;}
 .bwBg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);background-size:cover;background-position:50% 50%;}
 .bwBg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);background-size:cover;background-position:50% 50%;}
 .bwBg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);background-size:cover;background-position:50% 50%;}
+.JBg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1472023580/jewellery_banner1_gx3v09.jpg);background-size:cover;background-position:50% 50%;}
+.JBg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1472023580/jewellery_banner2_hby9bk.jpg);background-size:cover;background-position:50% 50%;}
+.JBg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1472023580/jewellery_banner3_aakfek.jpg);background-size:cover;background-position:50% 50%;}
 .introBg1{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_jewellery_o0qjfr.jpg);background-size:cover;background-position:50% 50%;}
 .introBg2{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_automotive_igscef.jpg);background-size:cover;background-position:50% 50%;}
 .introBg3{width:100%;height:100%;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376745/cover_interiordesign_bu5fp5.jpg);background-size:cover;background-position:50% 50%;}
@@ -205,6 +208,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #caseStudy{height:100%;position:relative;background-repeat:no-repeat;background-size:cover;background-position:center center;width:100%;display:table;}
 .carBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418713/automotive_banner1_j088se.jpg);}
 .bwBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577611/interiordesign_banner1_kwltws.jpg);}
+.jewelleryBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1472023580/jewellery_banner3_aakfek.jpg);}
 .caseStudyBoard{width:32%;display:inline-block;}
 .caseStudyBoard h3{margin:15px auto;}
 #caseStudy>div{display:table-cell;vertical-align:middle;}
@@ -229,6 +233,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #interested{position:relative;height:100%;background-repeat:no-repeat;background-size:cover;background-position:center center;text-align:center;}
 .interestBg1{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468376706/automotive_contact_zbsq74.jpg);}
 .interestBg2{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1471577997/interiordesign_contact_w0peaf.jpg);}
+.interestBg3{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1472024517/jewellery_contact_vl0hjq.jpg);};
 #interested .Topic{z-index:5;}
 #interested h3{margin-bottom:10px;}
 #interested .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:10px;}
