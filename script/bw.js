@@ -16,10 +16,15 @@ $(window).load(function() {
 	InfoIconSvg();
     videoBtn();
     setVideoSize();
+	benefitSubText();
 });
 $(window).resize(function() {
     setVideoSize(); 
-	   if ($(window).width() <= 550) {
+	benefitSubText();
+});
+
+function benefitSubText(){
+	if ($(window).width() <= 550) {
         $(".bSubText")[1].children[0].style.opacity = "0.3";
     } else {
         $(".bSubText")[0].children[0].style.opacity = "1";
@@ -27,7 +32,7 @@ $(window).resize(function() {
         $(".benfitsSlider")[0].style = "transform: translateX(0%);";
         $(".benfitsSlider")[0].style.webkitTransform = "translateX(0%)";
     }
-});
+}
 
 function FullPageFunc() {
     var firstTime = true;

@@ -52,6 +52,7 @@ ol{margin:0 auto;}
 .active .carouselTopic img{opacity:1;}
 .active .carouselTopic h3{-webkit-transition-delay:0.1s;transition-delay:0.1s;transform:translateX(0%);opacity:1;}
 .carousel-indicators{display:table;}
+#home .carousel-indicators{left:50%;-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);}
 .carousel-indicators .active{margin:0 auto;background:url(../svg/triangleon_icon.svg);background-repeat:no-repeat;background-size:100% 100%;width:20px;height:20px;}
 .carousel-indicators li{margin:0 auto;background:url(../svg/triangleoff_icon.svg);background-repeat:no-repeat;background-size:100% 100%;width:20px;height:20px;background-color:null;border-radius:0;opacity:0.8;}
 /*.carousel-indicators li:nth-child(1){left:10px;}
