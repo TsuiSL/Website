@@ -109,7 +109,6 @@ function FullPageFunc() {
                     $(".introTextLayer")[3].childNodes[1].style.opacity = "1";
                     $(".introTextLayer")[3].childNodes[3].style.opacity = "1";
                     $(".introTextLayer")[3].childNodes[3].style.transform = "translateX(0px)";
-                    $(".ComingSoon")[0].style.opacity = "1";
                 }
 				if (index == 6) {
                     $(".caption")[4].style.opacity = "0.6";
@@ -117,7 +116,6 @@ function FullPageFunc() {
                     $(".introTextLayer")[4].childNodes[1].style.opacity = "1";
                     $(".introTextLayer")[4].childNodes[3].style.opacity = "1";
                     $(".introTextLayer")[4].childNodes[3].style.transform = "translateX(0px)";
-                    $(".ComingSoon")[1].style.opacity = "1";
                 }
                 if (index == 7) {
                     for (var i = 0; i < $(svgElem)[0].childNodes.length; i++) {
@@ -150,13 +148,11 @@ function FullPageFunc() {
                     $(".caption")[3].removeAttribute("style");
                     $(".introTextLayer")[3].childNodes[1].removeAttribute("style");
                     $(".introTextLayer")[3].childNodes[3].removeAttribute("style");
-                    $(".ComingSoon")[0].removeAttribute("style");
                 }
 				if (index == 6) {
                     $(".caption")[4].removeAttribute("style");
                     $(".introTextLayer")[4].childNodes[1].removeAttribute("style");
                     $(".introTextLayer")[4].childNodes[3].removeAttribute("style");
-                    $(".ComingSoon")[1].removeAttribute("style");
                 }
             }
         }
