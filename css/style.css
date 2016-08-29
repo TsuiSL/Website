@@ -51,7 +51,7 @@ ol{margin:0 auto;}
 .item > img{width:100%;}
 .active .carouselTopic img{opacity:1;}
 .active .carouselTopic h3{-webkit-transition-delay:0.1s;transition-delay:0.1s;transform:translateX(0%);opacity:1;}
-.carousel-indicators{display:table;}
+.carousel-indicators{display:table;left: 50%; -moz-transform: translateX(-50%); -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%);}
 #home .carousel-indicators{left:50%;-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);}
 .carousel-indicators .active{margin:0 auto;background:url(../svg/triangleon_icon.svg);background-repeat:no-repeat;background-size:100% 100%;width:20px;height:20px;}
 .carousel-indicators li{margin:0 auto;background:url(../svg/triangleoff_icon.svg);background-repeat:no-repeat;background-size:100% 100%;width:20px;height:20px;background-color:null;border-radius:0;opacity:0.8;}
@@ -144,7 +144,7 @@ ol{margin:0 auto;}
 .benfitTopic{width:100%;z-index:5;}
 .benfitsLayer #text{position:relative;z-index:6;display:table-cell;vertical-align:middle;height:100%;}
 .hideMargin{height:15%;}
-.benfitsLayer h2, .benfitsLayer h3, #features h2, #clients h2{border-bottom:#2c4ff9 2px solid;display:inline-block;line-height:150%;margin:0 auto;}
+.benfitsLayer h2, .benfitsLayer h3, #features h2, #clients h2, #demo h2, #NoIcon h2{border-bottom:#2c4ff9 2px solid;display:inline-block;line-height:150%;margin:0 auto;}
 .benfitsLayer .col-md-5{text-align:left;margin:0 auto;margin-left:8%;padding:0px 0px;}
 .benfitsLayer #point{margin-top:25px;}
 .tickIcon div{width:20px;height:20px;overflow:hidden;background:#2c4ff9;-webkit-mask-image:url(../svg/tick_icon.svg);-webkit-mask-size:100% 100%;}
@@ -186,18 +186,19 @@ ol{margin:0 auto;}
 rgba(0,0,0,0.00) 80%,
 rgba(0,0,0,0.00));background-size:100% 20px;}
 .blurBg{background-repeat:no-repeat;background-size:cover;background-position:center center;overflow:hidden;height:100%;width:100%;position:absolute;}
-#clients{height:100%;display:table;width:100%;position:relative;text-align:center;}
+#clients, #demo{height:100%;display:table;width:100%;position:relative;text-align:center;}
 #clientLayer{display:table-cell;vertical-align:middle;}
-#clients h2{margin:10px auto;}
+#clients h2, #demo h2{margin:10px auto;}
 #logoLayer{position:relative;margin-top:10px;margin-bottom:45px;}
 .blurBg .caption{top:0;left:0;opacity:0.5;}
-#clients .blurBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418702/automotive_clients_bmt6hb.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;z-index:0;}
+#clients .blurBg, #demo .blurBg{background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468418702/automotive_clients_bmt6hb.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;z-index:0;}
 .clientBoardLayer{padding:0 10px;}
 .clientBoard{position:relative;width:18%;float:left;padding:0px 0px;display:inline-block;text-align:center;vertical-align:middle;background-color:rgba(44,79,249,0.5);margin:5px 1%;cursor:pointer;}
-.clientBoard:before{content:"";display:block;padding-top:100%;}
-#clients #setWidth{text-align:center;max-width:650px;}
+.demoBoard{position:relative;width:18%;float:none;padding:0px 0px;display:inline-block;text-align:center;vertical-align:middle;margin:5px 1%;cursor:pointer;}
+.clientBoard:before, .demoBoard:before{content:"";display:block;padding-top:100%;}
+#clients #setWidth, #demo #setWidth{text-align:center;max-width:650px;}
 .shadowfilter{-webkit-filter:drop-shadow(0px 0px 5px rgba(255,255,255,0.7));}
-.clientBoard img{width:75%;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.clientBoard img, .demoBoard img{width:75%;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
 #FAQ{height:100%;width:100%;display:table;text-align:center;}
 #faqLayer{display:table-cell;vertical-align:middle;position:relative;}
 #FAQ .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:25px;}
@@ -225,8 +226,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #caseStudy #topicLeft h3{max-width:110px;float:right;line-height:40px;font-size:35px;margin:0 10%;position:relative;right:0;}
 #caseStudy #topicRight{text-align:left;position:relative;display: table-cell;vertical-align: middle;float:right;border-left:2px #2c4ff9 solid;}
 #caseStudy #topicRight img{margin:0px 8%; width:100%; max-width:120px;}
-#caseStudy #NoIcon h3{line-height:40px;font-size:35px;position:relative;}
-
+#NoIcon{position:relative;z-index:2;}
 #caseStudy #text1{margin:10px auto;max-width:520px;text-align:center;}
 #caseStudy #text2{margin:10px auto;max-width:520px;text-align:center;padding:0 10px;}
 #caseStudy #blue{color:#2c4ff9;text-shadow:0.5px 0.5px #2c4ff9, -0.5px -0.5px #2c4ff9, -0.5px 0.5px #2c4ff9, 0.5px -0.5px #2c4ff9;}
@@ -285,6 +285,7 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 .benfitSubTitle{text-align:left;}
 .bSubText{width:50%;float:left;}
 #myVideo{width:100%;height:100%;object-fit:cover;z-index:0;position:absolute;}
+#videoCarousel ol {width:100%;}
 .BoxLayer{text-align:center;max-width:1300px;}
 .BoxDiv{width:20%;display:inline-block;cursor:pointer;-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;z-index:2;position:relative;}
 .boxDetailLayer{width:0%;display:inline-block;vertical-align:middle;-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;position:relative;height:0;}
@@ -309,7 +310,6 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #video{width:100%;height:100%;text-align:center;display:table;}
 #video .container-fluid{display:table-cell;vertical-align: middle;}
 #video iframe{border:none;position:relative;}
-.videoBtn{cursor:pointer;}
 #video .carousel-indicators{position:relative;bottom:0px;margin-top: 10px;}
 #video .blueborder{height:2px;width:70px;background-color:rgba(44, 79, 249, 1);margin:0 auto;margin-bottom:25px;}
 #analyics{height: 100%;position: relative;background:url(https://res.cloudinary.com/http-www-vz777-com/image/upload/v1468387422/automotive_analytics_ymgrnh.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;width: 100%;display:table;}
@@ -338,6 +338,12 @@ rgba(0,0,0,0.00));background-size:100% 20px;}
 #moblieLine{display: none;width: 80%;left: 50%;transform: translateX(-50%);}
 h3_1{font-size:22px;margin:10px auto;color:#fff;font-family:"din";}
 .bwIcon{width:100px;}
+.demoLayerIcon{margin:10px auto;margin-bottom: 20px;width:130px;}
+.demoLayerIcon Img{width:100%;}
+.demoBtn Img{margin:10px auto;cursor:pointer;width:130px;}
+#demoLayer{-webkit-transition:all ease .5s;-moz-transition:all ease .5s;transition:all ease .5s;overflow: hidden;height:130px;margin-top:10px;}
+#demoDlLayer{-webkit-transition:all ease .5s;-moz-transition:all ease .5s;transition:all ease .5s; opacity:0; height:0px;overflow: hidden;}
+
 @media screen and (min-width:769px){.featuresPoint div:hover img, .featuresPoint div:hover h5{opacity:1;}
 #installation #point div:hover img, #installation #point div:hover h5,
 #additional #point div:hover img, #additional #point div:hover h5{opacity:1 !important;}
@@ -356,7 +362,7 @@ h3_1{font-size:22px;margin:10px auto;color:#fff;font-family:"din";}
 .nav>li{margin:20px auto;}
 .dashedLine{display:none;}
 .featuresChild{position:relative;height:35%;width:100%;}
-#clients #setWidth{max-width:520px;}
+#clients #setWidth, #demo #setWidth{max-width:520px;}
 .contactBoard{height:35%;}
 #features>div{display:block;}
 .benfitsLayer #row2{-webkit-transform:translateX(0%);transform:translateX(0%);margin:0 auto;margin-top:10%;margin-bottom:5%;}

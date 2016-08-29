@@ -41,7 +41,7 @@ function FullPageFunc() {
         'css3': true,
         'navigation': true,
         'navigationPosition': 'right',
-        'navigationTooltips': ['HOME', 'VIDEO', 'BENEFITS','CASESTUDY', 'CLIENTS', 'FAQ','INTERESTED', 'FOOTER'],
+        'navigationTooltips': ['HOME', 'VIDEO', 'DEMO', 'BENEFITS','CASESTUDY', 'CLIENTS', 'FAQ','INTERESTED', 'FOOTER'],
         'afterLoad': function(anchorLink, index) {
             if (index == 1) {
                 $(".navtopbar").removeClass("opacityZero");
@@ -50,17 +50,28 @@ function FullPageFunc() {
                 $('.homeBtn')[0].style.opacity = "1";
             }
             if (index == 2) {
-                switch (videoId) {
-                    case '0':
-						try{
-                        	player1.playVideo();
-						}catch(err){
-							console.log(err);
-						}
-                        break;
-                }
+				$('.Topic').eq(0).addClass('visible animated fadeInUp');
+				if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+					switch (videoId) {
+						case '0':
+							try{
+								player1.playVideo();
+							}catch(err){
+								console.log(err);
+							}
+						break;
+					}
+				}
             }
 			if(index == 3){
+				$('.Topic').eq(1).addClass('visible animated fadeInUp');
+				for (var i = 0; i < $('.demoBoard').length; i++) {
+                    $('.demoBoard').eq(i).delay(100 * i).queue(function() {
+                        $(this).addClass("visible animated bounceIn");
+                    });
+                }
+			}
+			if(index == 4){
 				for (var i = 0; i < $('.benfitTopic')[0].children.length; i++) {
                     $($('.benfitTopic')[0].children[i]).delay(100 * i).queue(function() {
                         $(this).addClass("visible animated fadeInUp");
@@ -84,7 +95,7 @@ function FullPageFunc() {
                     }
                 });
 			}
-            if (index == 4) {
+            if (index == 5) {
                 for (var i = 0; i < $('#text2')[0].children.length; i++) {
                     $($('#text2')[0].children[i]).delay(300 * (i + 2)).queue(function() {
                         $(this).addClass("visible animated bounceIn");
@@ -94,25 +105,25 @@ function FullPageFunc() {
                 $('#topicRight').addClass('visible animated fadeIn');
                 $('#text1').addClass('visible animated fadeInUp');
             }
-            if (index == 5) {
-                $('.Topic').eq(0).addClass('visible animated fadeInUp');
+            if (index == 6) {
+                $('.Topic').eq(2).addClass('visible animated fadeInUp');
                 for (var i = 0; i < $('.bwIcon').length; i++) {
                     $('.bwIcon').eq(i).delay(100 * i).queue(function() {
                         $(this).addClass("visible animated bounceIn");
                     });
                 }
             }
-			if(index == 6){
-				$('.Topic').eq(1).addClass('visible animated fadeInUp');
-                $('.Topic').eq(2).addClass('visible animated fadeInUp');
-			}
-            if (index == 7) {
-                $('.Topic').eq(3).addClass('visible animated fadeInUp');
+			if(index == 7){
+				$('.Topic').eq(3).addClass('visible animated fadeInUp');
                 $('.Topic').eq(4).addClass('visible animated fadeInUp');
+			}
+            if (index == 8) {
+                $('.Topic').eq(5).addClass('visible animated fadeInUp');
+                $('.Topic').eq(6).addClass('visible animated fadeInUp');
                 $(".TopicText").addClass('visible animated fadeInUp');
                 $('.contactBoard').addClass('visible animated fadeIn');
             }
-            if (index == 8) {
+            if (index == 9) {
                 for (var i = 0; i < $(svgElem)[0].childNodes.length; i++) {
                     $($(svgElem)[0].childNodes[i]).delay(($(svgElem)[0].childNodes.length - 1) * 3 - i * 3).fadeIn();
                 }
@@ -177,6 +188,9 @@ function setHidden() {
     }
     for (var i = 0; i < $('.bwIcon').length; i++) {
         $('.bwIcon').eq(i).addClass("hiddenHide");
+    }
+	for (var i = 0; i < $('.demoBoard').length; i++) {
+        $('.demoBoard').eq(i).addClass("hiddenHide");
     }
     for (var i = 0; i < $('#text2')[0].children.length; i++) {
         $($('#text2')[0].children[i]).addClass("hiddenHide");
@@ -290,4 +304,12 @@ function infoText(e) {
         var _h = obj[0].childNodes[1].clientHeight + 20;
     }
     obj[0].style.height = _h + "px";
+}
+function DemoIconOnClick(num){
+	$("#demoLayer").height(0);
+	$("#demoLayer")[0].style.opacity = 0;
+	$("#iconCarousel").carousel(num);
+	$("#demoDlLayer").height(270).delay(400).queue(function(){
+		$("#demoDlLayer")[0].style.opacity = 1;
+	});
 }

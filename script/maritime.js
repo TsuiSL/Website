@@ -41,7 +41,7 @@ function FullPageFunc() {
         'css3': true,
         'navigation': true,
         'navigationPosition': 'right',
-        'navigationTooltips': ['HOME', 'VIDEO', 'BENEFITS','CASESTUDY', 'FAQ','INTERESTED', 'FOOTER'],
+        'navigationTooltips': ['HOME', 'VIDEO', 'DEMO', 'BENEFITS','CASESTUDY', 'FAQ','INTERESTED', 'FOOTER'],
         'afterLoad': function(anchorLink, index) {
             if (index == 1) {
                 $(".navtopbar").removeClass("opacityZero");
@@ -63,15 +63,15 @@ function FullPageFunc() {
 					}
 				}
             }
-			/*if(index == 3){
+			if(index == 3){
 				$('.Topic').eq(1).addClass('visible animated fadeInUp');
 				for (var i = 0; i < $('.demoBoard').length; i++) {
                     $('.demoBoard').eq(i).delay(100 * i).queue(function() {
                         $(this).addClass("visible animated bounceIn");
                     });
                 }
-			}*/
-			if(index == 3){
+			}
+			if(index == 4){
 				for (var i = 0; i < $('.benfitTopic')[0].children.length; i++) {
                     $($('.benfitTopic')[0].children[i]).delay(100 * i).queue(function() {
                         $(this).addClass("visible animated fadeInUp");
@@ -95,8 +95,8 @@ function FullPageFunc() {
                     }
                 });
 			}
-            if (index == 4) {
-				$('.Topic').eq(1).addClass('visible animated fadeInUp');
+            if (index == 5) {
+				$('.Topic').eq(2).addClass('visible animated fadeInUp');
                 for (var i = 0; i < $('#text2')[0].children.length; i++) {
                     $($('#text2')[0].children[i]).delay(300 * (i + 2)).queue(function() {
                         $(this).addClass("visible animated bounceIn");
@@ -114,17 +114,17 @@ function FullPageFunc() {
                     });
                 }
             }*/
-			if(index == 5){
-				$('.Topic').eq(2).addClass('visible animated fadeInUp');
+			if(index == 6){
+				$('.Topic').eq(4).addClass('visible animated fadeInUp');
                 $('.Topic').eq(3).addClass('visible animated fadeInUp');
 			}
-            if (index == 6) {
-                $('.Topic').eq(4).addClass('visible animated fadeInUp');
+            if (index == 7) {
+                $('.Topic').eq(6).addClass('visible animated fadeInUp');
                 $('.Topic').eq(5).addClass('visible animated fadeInUp');
                 $(".TopicText").addClass('visible animated fadeInUp');
                 $('.contactBoard').addClass('visible animated fadeIn');
             }
-            if (index == 7) {
+            if (index == 8) {
                 for (var i = 0; i < $(svgElem)[0].childNodes.length; i++) {
                     $($(svgElem)[0].childNodes[i]).delay(($(svgElem)[0].childNodes.length - 1) * 3 - i * 3).fadeIn();
                 }
@@ -190,9 +190,9 @@ function setHidden() {
     for (var i = 0; i < $('.bwIcon').length; i++) {
         $('.bwIcon').eq(i).addClass("hiddenHide");
     }
-	/*for (var i = 0; i < $('.demoBoard').length; i++) {
+	for (var i = 0; i < $('.demoBoard').length; i++) {
         $('.demoBoard').eq(i).addClass("hiddenHide");
-    }*/
+    }
     for (var i = 0; i < $('#text2')[0].children.length; i++) {
         $($('#text2')[0].children[i]).addClass("hiddenHide");
     }
